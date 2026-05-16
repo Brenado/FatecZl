@@ -175,14 +175,28 @@ h1, .texto-um h2, .texto-um p {
     font-weight: bold;
 }
 
+table {
+    margin-right: 10px;
+}
+
 #tabela1::before {
     content: "🥩";
-    margin-right: 10px;
 }
 
 #tabela2::before {
     content: "🎓";
-    margin-right: 10px;
+}
+
+#tabela3::before {
+    content: "🎨";
+}
+
+#tabela4::before {
+    content: "💻";
+}
+
+#tabela::before {
+    content: "⌨";
 }
 
 footer {
